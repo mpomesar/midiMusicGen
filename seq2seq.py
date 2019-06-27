@@ -22,7 +22,7 @@ from torch.utils import data
 
 import matplotlib.pyplot as plt
 
-form music_data_utils import * # Our functions
+from music_data_utils import * # Our functions
 
 # **** Default Parameters and their respective meanings *******
 QNSF = 4   #  Quarter Note Sampling frequency for dividing time 
