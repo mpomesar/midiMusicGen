@@ -42,7 +42,7 @@ DATA_LEN_TEST=3   #Number of songs used for Data Generator (-1 for all) test
 MIDI_SOURCE = "tempData/midi"    #  directory with *.midi files
 
 
-def main()
+def main():
   print("END")
 
 
