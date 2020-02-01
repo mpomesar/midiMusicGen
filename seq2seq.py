@@ -216,18 +216,7 @@ def training_focal(self,training_generator,learning_rate=1e-4,epochs=25, teacher
 	          density_train.append((y_pred>self.thr).float().mean().item())
 	
 	          print(epoch, loss_train[epoch], recall_train[epoch], precision_train[epoch], density_train[epoch])
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   
+                                    
 def main():
   # *** Load Datasets (TRAIN, VALIDATION AND TEST) ***
   midi_files_train, midi_files_val, midi_files_test  = list_midi_files(MIDI_SOURCE, DATA_LEN_TRAIN, DATA_LEN_VAL, DATA_LEN_TEST, randomSeq=True)
